@@ -1,0 +1,7 @@
+/*fonts */
+@import url('https://fonts.googleapis.com/css2?family=Island+Moments&family=Poppins&family=Spline+Sans:wght@500;600&family=The+Nautigal:wght@700&display=swap');
+/* font family */
+body {
+  font-family: 'Poppins', sans-serif;
+  background-color: #AAAAAA;
+}
