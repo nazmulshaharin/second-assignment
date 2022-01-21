@@ -9,7 +9,6 @@ main {
   display: flex;
   justify-content: center;
   width: 1440px;
-  height: 3306px;
 }
 /*header section*/
 .nnnnnnn {
@@ -73,4 +72,19 @@ height: 150px;
 }
 .fa-star, .fa-star-half-alt {
   color: orange;
+}
+.lower {
+  color: #E02C6DDE;
+  float: right;
+}
+/*third section */
+.op {
+margin-top: 100px;
+margin-bottom: 100px;
+}
+.one-half img {
+  margin-top: 20px;
+}
+.paragraph {
+  font-family: 'Poppins', sans-serif
 }
