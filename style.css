@@ -18,8 +18,9 @@ main {
 /* work page */
 .container {
   background-color: #FFFFFF;
- width: 800px;
- padding: 30px;
+  padding-left: 20px;
+  width: 800px;
+  padding: 30px;
 }
 /* first section */
 .one-half {
@@ -47,6 +48,9 @@ main {
   text-align: center;
   margin-top: 100px;
 }
+.course-title {
+
+}
 .courses {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
@@ -68,5 +72,8 @@ height: 150px;
 }
 .by {
   font-size: 14px;
-  font-weight: 700;
+  font-weight: 300;
+}
+.fa-star, .fa-star-half-alt {
+  color: orange;
 }
