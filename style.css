@@ -86,5 +86,39 @@ margin-bottom: 100px;
   margin-top: 20px;
 }
 .paragraph {
-  font-family: 'Poppins', sans-serif
+  font-family: 'Poppins', sans-serif;
+}
+
+.on {
+  background-color: #E02C6D;
+  text-decoration: none;
+  padding: 15px;
+  color: white;
+  text-align: center;
+  margin-top: 16px;
+  border-radius: 5px;
+  width: 300px;
+}
+/*footer section */
+footer {
+  background-color: #0a0826;
+  color: #FFFFFF;
+  text-align: center;
+}
+.last-section {
+  padding-bottom: 50px;
+  padding-top: 50px;
+}
+
+.fab {
+  margin-left: 16px;
+   background-color: #23213c;
+   object-fit: cover;
+   width: 30px;
+   height: 30px;
+   border-radius: 50%;
+   display: inline-flex;
+   align-items: center;
+   justify-content: center;
+   cursor: pointer;
 }
