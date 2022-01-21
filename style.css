@@ -22,6 +22,10 @@ main {
   padding: 30px;
 }
 /* first section */
+.one-half:hover img {
+  transform: rotate(-180deg);
+   transition: transform 0.5s ease-in;;
+}
 .one-half {
   width: 50%;
   padding-left: 120px;
@@ -113,7 +117,6 @@ footer {
 .fab {
   margin-left: 16px;
    background-color: #23213c;
-   object-fit: cover;
    width: 30px;
    height: 30px;
    border-radius: 50%;
