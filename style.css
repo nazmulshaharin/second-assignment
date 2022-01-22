@@ -15,7 +15,7 @@ main {
   margin-left: 120px;
 }
 /* work page */
-.container {
+.main {
   background-color: #FFFFFF;
   padding-left: 20px;
   width: 800px;
@@ -51,18 +51,18 @@ main {
   text-align: center;
   margin-top: 100px;
 }
-.courses {
+.shaharin {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   grid-column-gap: 30px;
   grid-gap: 20px;
   background-color: azure;
 }
-.course .courses-banner img {
+.nazmul .shaharin-banner img {
   width: 224px;
 height: 150px;
 }
-.course {
+.nazmul {
   background-color: #FFFFFF;
   padding-left: 5px;
 }
@@ -134,5 +134,27 @@ footer {
 }
 /* reponsive style for mobile view */
 @media only screen and (max-width: 688px) {
- 
+      .main {
+        width: 60%;
+      }
+     .nnnnnnn, .first-section, .shaharin, .one-halff, footer {
+       display: grid;
+       grid-template-columns: repeat(1, 1fr);
+       justify-content: center;
+       align-items: center;
+     }
+}
+/* tablet style */
+@media only screen (min-width: 689px) and (max-width: 992px) {
+    .main {
+      width: 60%;
+    }
+    .shaharin {
+      grid-template-columns: repeat(2, 1fr);
+    }
+.nazmul {
+  display: grid;
+  grid-row-gap: 30px;
+  justify-content: center;
+}
 }
