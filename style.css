@@ -145,16 +145,12 @@ footer {
      }
 }
 /* tablet style */
-@media only screen (min-width: 689px) and (max-width: 992px) {
-    .main {
-      width: 60%;
-    }
-    .shaharin {
-      grid-template-columns: repeat(2, 1fr);
-    }
-.nazmul {
-  display: grid;
-  grid-row-gap: 30px;
-  justify-content: center;
-}
-}
+@media only screen and (min-width: 689px) and (max-width: 992px)  {
+   .main {
+     display: 60%;
+   }
+  .shaharin {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+}  
